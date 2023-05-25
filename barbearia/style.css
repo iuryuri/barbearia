@@ -29,6 +29,8 @@ width: 11%;
 border-radius: 30px;
 margin: auto;
 text-align: center;
+vertical-align: top;
+display: inline-block
 }
 .texto {
      background-color: rgb(106, 151, 168);
