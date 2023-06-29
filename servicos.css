@@ -97,3 +97,19 @@ header{
     font-weight: bold;
     margin-top: 10px;
 }
+
+footer { 
+    text-align: center;
+    background:url("footer.png");
+    padding: 20px;
+
+}
+
+footer img{
+    width: 6%;
+    
+}
+.Copyright{
+    font-size: 13px;
+    margin: 20px 0 0;
+}
