@@ -30,8 +30,9 @@ nav {
 }
 
 .imagem{
-    width: 35%;
-    margin-inline-start: -51%;
+    width: 40%;
+    margin-inline-start: 1%;
+    height: 52%;
   
 }
 
@@ -138,4 +139,57 @@ form input-padrao{
 }
 .checkbox{
     margin: 20 px 0;
+}
+
+.enviar {
+width: 40%;
+padding: 15px 0;
+background: linear-gradient(45deg, rgb(182, 149, 212), rgb(182, 94, 120), rgb(206, 73, 162) ,rgb(182, 149, 212) );
+color: wheat;
+font-weight: bold;
+font-size: 18px;
+border: none;
+border-radius: 5px;
+transition: 1s all;
+cursor: pointer;
+}
+
+.enviar:hover{
+    background: linear-gradient(45deg, rgb(100, 38, 112), rgb(166, 86, 177), rgb(155, 79, 170) ,rgb(83, 51, 114) );
+    transform:scaleY(1.1)
+}
+table{
+    margin: 2% 0 40px;
+}
+thead{
+background: rgb(198, 163, 221);
+color: black;
+font-weight: bold;
+
+
+}
+td, th{
+border: 1px solid rgb(36, 36, 36);
+padding: 8px 20px;
+}
+/* css da pagina inicial*/
+
+
+.titulo-principal{
+  text-align: center;
+   font-size:  2em;
+   margin: 0 0 1em;
+}
+
+.texto, .contato{
+    margin:  0 0 1em;
+}
+
+
+.texto, .contato{
+    margin:  0 0 1em;
+}
+.titulo-principal{
+    width: 120px;
+    
 }
