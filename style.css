@@ -29,10 +29,10 @@ nav {
     margin: 0 auto;
 }
 
-.imagem{
-    width: 40%;
-    margin-inline-start: 1%;
-    height: 52%;
+.lulaa{
+    width: 20%;
+    margin-inline-start: -52%;
+    height: 20%;
   
 }
 
@@ -167,6 +167,7 @@ color: black;
 font-weight: bold;
 
 
+
 }
 td, th{
 border: 1px solid rgb(36, 36, 36);
@@ -174,22 +175,38 @@ padding: 8px 20px;
 }
 /* css da pagina inicial*/
 
+.imagem{
+    width: 50%;
+    height: 70%;
+    margin-inline-start: 25%;
+    
+}
 
 .titulo-principal{
   text-align: center;
    font-size:  2em;
    margin: 0 0 1em;
+   clear: left;
 }
 
 .texto, .contato{
     margin:  0 0 1em;
+    width: 940px;
+    margin: 0 auto;
 }
 
 
-.texto, .contato{
+.texto p , .contato{
     margin:  0 0 1em;
 }
-.titulo-principal{
-    width: 120px;
+.imagem-principal{
+    width: 300px;
+    float: left;
+    margin: 0 -55px 60px 155px;
+}
+.corpinho {
     
+
+    background-color: rgb(228, 139, 105);
+    background: linear-gradient(45deg, rgb(182, 149, 212), rgb(182, 94, 120), rgb(206, 73, 162) ,rgb(182, 149, 212) );
 }
